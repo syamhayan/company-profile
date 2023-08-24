@@ -1,0 +1,500 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(255, 255, 255);
+  font-family: "Tektur";
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo a {
+  color: beige;
+  text-decoration: none;
+}
+.logo h1 {
+  font-family: "newton";
+}
+.menu a {
+  margin: 4px;
+  color: beige;
+  text-decoration: none;
+}
+.hero {
+  background: url(../source/img/hero.jpg) no-repeat fixed;
+  background-size: cover;
+}
+.overlay {
+  width: 100%;
+  position: relative;
+  background-color: rgba(11, 11, 11, 0.589);
+}
+.hero-center {
+  color: beige;
+  padding: 15% 0;
+  text-align: center;
+  margin: auto;
+}
+.hero-center h2 {
+  font-size: 3em;
+  width: 70%;
+  margin: auto;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background: rgb(0, 173, 253);
+  padding: 20px 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.hero2 {
+  background-color: white;
+}
+.hero2 .container {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero2 .img img {
+  width: 300px;
+}
+/* end header */
+/* product */
+.product {
+  border-style: solid;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+  border-radius: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(179, 179, 179);
+  background-size: cover;
+}
+.product-card h2 span {
+  color: rgb(0, 173, 253);
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
+.product-card {
+  margin: 10px 0;
+}
+.product-card h2 {
+  text-shadow: 3px 3px rgb(0, 173, 253);
+  text-align: center;
+  font-size: 3em;
+  margin: auto;
+}
+.card {
+  margin: 5% 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card a {
+  text-decoration: none;
+}
+.cardlist {
+  cursor: pointer;
+  box-shadow: 3px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 173, 253);
+  background: url(../source/img/card.jpeg);
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 10px 10px;
+}
+.cardlist:hover {
+  background-position: 2px;
+  transition: 0.5s;
+}
+.carditem {
+  font-size: 20px;
+  font-weight: bold;
+}
+.product-desc {
+  background: url(../source/img/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-desc .container {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.produk-image img {
+  width: 150px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+.wrapper {
+  box-shadow: -3px 3px rgb(0, 0, 0);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  flex-direction: row-reverse;
+  margin: 20px;
+}
+.wrapper-2 {
+  box-shadow: 3px 3px rgb(0, 0, 0);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.produk-info {
+  color: black;
+  text-align: center;
+  margin: 0 80px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.produk-info .title {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+/* end product */
+/* blog */
+.blog {
+  background-color: rgb(255, 255, 255);
+  border-top: solid black;
+  width: 100%;
+}
+.blog .container {
+  width: 100%;
+  max-width: none;
+}
+.blog h2 {
+  margin: 100px 60px 20px;
+  font-size: 50px;
+}
+.blog-info h2 {
+  font-size: 30px;
+  margin: 20px;
+}
+.blog-info {
+  color: white;
+  background: url(../source/img/heroblog.jpg) no-repeat fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.blog-info .overlay {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  padding: 150px 0;
+}
+.blog-info div {
+  width: 50%;
+  text-align: center;
+}
+.blog-info a {
+  border-radius: 10px;
+  margin: 40px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(0, 173, 253);
+}
+.blog-hero {
+  background: url(../source/img/heroblog2.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog-hero .overlay {
+  background-color: rgba(0, 0, 0, 0.466);
+}
+.content {
+  padding: 10% 0;
+  color: white;
+  text-align: center;
+}
+.content h1 {
+  font-size: 3em;
+}
+.content-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-title {
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.596);
+  width: 33%;
+  padding: 10px;
+}
+.wait {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+/* contact */
+.contact {
+  background-color: rgb(179, 179, 179);
+}
+.contacts {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.contacts img {
+  margin: 0 7px;
+  width: 40px;
+}
+.contacts img:hover {
+  width: 45px;
+  transition: 0.2s;
+}
+.sosmed {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+.telephone {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+}
+.telephone a {
+  color: black;
+}
+/* about us */
+.about {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about .container {
+  margin: 50px;
+  border: solid black;
+  border-radius: 40px 40px 0 0;
+  background-color: white;
+  width: 60%;
+}
+.about img {
+  width: 250px;
+}
+.about h2,
+img,
+p {
+  margin: 20px;
+}
+/* footer */
+.footer {
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+.footer .container {
+  display: flex;
+}
+.footer .logo {
+  color: white;
+  font-family: "newton";
+  font-size: 30px;
+  width: 100%;
+  text-align: start;
+}
+.footer-nav {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.footer-nav a {
+  color: rgb(255, 255, 255);
+  margin: 5px;
+}
+.footer p {
+  color: white;
+  margin: 0;
+  text-align: center;
+  width: 33%;
+}
+#totop button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+}
+/* font */
+@font-face {
+  font-family: "Tektur";
+  src: url("../source/font/Tektur-Regular.ttf");
+}
+@font-face {
+  font-family: "newton";
+  src: url("../source/font/Newton\ Howard\ Font.ttf");
+}
+
+/* responsive */
+@media (max-width: 745px) {
+  .contacts {
+    flex-direction: column;
+  }
+  .contacts img {
+    width: 30px;
+  }
+  .contact img:hover {
+    width: 30px;
+  }
+  .hero2 .container {
+    width: 90%;
+  }
+  .hero2 .img img {
+    width: 200px;
+  }
+  .produk-image img {
+    width: 50px;
+  }
+  .product h2 {
+    font-size: 20px;
+  }
+  .product p {
+    font-size: 10px;
+  }
+  .cardlist {
+    width: 100px;
+    height: 100px;
+  }
+  .carditem {
+    font-size: 12px;
+  }
+}
+@media (max-width: 550px) {
+  .hero-center {
+    padding: 50% 0;
+  }
+  .header {
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .hero-center h2 {
+    font-size: 30px;
+  }
+  .hero2 .img img {
+    width: 100px;
+  }
+  .hero2 .desc h2 {
+    font-size: 15px;
+  }
+  .hero2 .desc p {
+    font-size: 12px;
+  }
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper-2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .produk-image img {
+    width: 50px;
+    margin: 2px;
+  }
+  .produk-info {
+    margin: 0;
+  }
+  .produk-info .title {
+    font-size: 18px;
+  }
+  .produk-info .desc {
+    font-size: 12px;
+  }
+  .blog h2 {
+    font-size: 25px;
+  }
+  .blog-info .overlay {
+    flex-direction: column;
+  }
+  .blog-info div {
+    width: 100%;
+  }
+  .contact .sosmed h2 {
+    font-size: 18px;
+  }
+  .contact .sosmed {
+    width: 100%;
+  }
+  .contact .telephone {
+    width: 100%;
+  }
+  .contact .telephone h2 {
+    font-size: 18px;
+  }
+  .contact .telephone a {
+    font-size: 12px;
+  }
+  .about h2 {
+    font-size: 18px;
+  }
+  .about img {
+    width: 150px;
+  }
+  .about p {
+    font-size: 12px;
+  }
+  .footer .logo {
+    width: 29%;
+    font-size: 18px;
+  }
+  .footer .footer-nav a {
+    font-size: 12px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .content h1 {
+    font-size: 2rem;
+  }
+  .content-items {
+    flex-direction: column;
+  }
+  .content-title {
+    width: 100%;
+    padding: 5px;
+  }
+}
